@@ -16,7 +16,6 @@ import { DashboardView } from './components/pages/DashboardView';
 import { NotFound } from './components/pages/NotFound';
 
 const API_BASE = 'https://localhost:9000/api';
-
 function App() {
   const location = useLocation();
   const [isLoggedIn, setIsLoggedIn] = useState(() => {
